@@ -1,0 +1,29 @@
+main section:first-child {
+  display: flex;
+  margin-top: 2em;
+  padding: 20px;
+  justify-content: space-around;
+}
+
+main section:first-child div {
+  padding: 20px;
+}
+
+.avatar img {
+  padding: 20px;
+  border: thick solid #ccc;
+}
+
+.bio {
+  min-width: 50%;
+}
+
+.bio th,
+.bio td {
+  padding: 1em;
+}
+
+main section:first-child p {
+  margin-bottom: 1.6em;
+  line-height: 1.6em;
+}

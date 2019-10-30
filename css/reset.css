@@ -1,0 +1,41 @@
+/* reset */
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* defaults */
+* {
+  font-family: "Lucida Sans", Verdana, sans-serif;
+}
+
+.page-header {
+  padding-top: 120px;
+  font-size: 21pt;
+  padding-bottom: 1em;
+  border-bottom: 1px solid #000;
+}
+
+.container {
+  width: 80%;
+  min-width: 320px;
+  max-width: 960px;
+  margin: 0 auto;
+}

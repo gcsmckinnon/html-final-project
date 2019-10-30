@@ -1,0 +1,58 @@
+body,
+html,
+header {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background: url("https://via.placeholder.com/1920x1080/222222/333333/?text=our hero image");
+  background-size: cover;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+header div:first-child {
+  margin-top: 7em;
+  height: auto;
+  width: auto;
+  padding: 40px;
+  position: relative;
+  background: rgba(255, 255, 255, 1);
+  border: 20px solid #000;
+  outline: 5px solid #fff;
+  mix-blend-mode: lighten;
+}
+
+header h1 {
+  font-weight: bold;
+  font-size: 55pt;
+  color: rgba(0, 0, 0, 1);
+}
+
+header div.cta {
+  margin-top: 5em;
+}
+
+header div.cta a {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 5px;
+  border: 5px solid #fff;
+  padding: 1em;
+  transition: 1s;
+}
+
+header div.cta a:hover {
+  background: #fff;
+  color: #000;
+  mix-blend-mode: lighten;
+}

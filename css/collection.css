@@ -1,0 +1,52 @@
+main {
+  margin-top: 2em;
+}
+
+.collection h2 {
+  font-size: 2em;
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+  float: left;
+  margin-right: 1em;
+}
+.collection > .description {
+  line-height: 1.6em;
+}
+
+.collection-items {
+  clear: both;
+  margin-top: 4em;
+  border-top: 1px solid #333;
+  padding-top: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #333;
+  margin-bottom: 2em;
+}
+
+.card {
+  border: 1px solid #333;
+  margin: 1em;
+  padding: 1em;
+  width: 30%;
+  max-width: 320px;
+}
+
+.card h3 {
+  font-size: 2em;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 1em;
+  padding-bottom: 0.5em;
+}
+
+.card p {
+  margin-bottom: 1em;
+}
+
+.card strong {
+  color: cornflowerblue;
+}
